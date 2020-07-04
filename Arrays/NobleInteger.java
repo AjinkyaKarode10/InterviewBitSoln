@@ -26,3 +26,15 @@ public class NobleInteger {
         
     }
 }
+
+//Why Sorting ?
+// Suppose there is val at index 2 , if sorting is done we are rest assured that
+// all the values to right of index 2 will be greater/equal to 2.i.e what we want to check
+// Thus now we just need to count no of ele greater than val at index 2 =>A.size()-i-1
+// eg if we have A.size()=5
+// val at index 2 =2
+// Thus 2 == A.size()-i-1
+
+//Why A.get(A.size()-1
+// if we have all negative integers and 0 then 0 will be maximum and will be at end
+// after sorting.
